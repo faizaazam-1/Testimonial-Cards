@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>Testimonial Cards</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="A collection of testimonial cards showcasing user experiences with roadmap.sh. Features different card layouts including bubble cards, image cards, and carousel."
+    />
+    <meta
+      name="keywords"
+      content="testimonials, roadmap.sh, developer testimonials, frontend development, learning journey"
+    />
+    <meta name="author" content="Faiza Azam" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Top Row -->
+    <div class="top-row">
+      <!-- Dark Bubble Card -->
+      <div class="testimonial-card bubble">
+        <div class="content">
+          <p class="quote">
+            I have been solving all the project ideas on roadmap.sh and I am
+            surprised how far I have come from where I started.
+          </p>
+          <p class="highlight">Highly recommended!</p>
+        </div>
+        <div class="author">
+          <img src="./assets/avatar.png" alt="Faiza Azam" class="avatar" />
+          <div class="author-info">
+            <h3 class="name">Faiza Azam</h3>
+            <p class="title">Frontend Developer</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- White Rectangle Card -->
+      <div class="testimonial-card rectangle">
+        <div class="content">
+          <p class="quote">
+            Since starting my career in 2021, I have only followed one resource,
+            roadmap.sh, it truly helped me go from 0 to having a job and
+            changing the financial trajectory of my family
+          </p>
+        </div>
+        <div class="author">
+          <img src="./assets/avatar.png" alt="Faiza Azam" class="avatar" />
+          <div class="author-info">
+            <h3 class="name">Faiza Azam</h3>
+            <p class="title">Frontend Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Row -->
+    <div class="bottom-row">
+      <!-- Large Image Card -->
+      <div class="testimonial-card image-card">
+        <img src="./assets/avatar.png" alt="Faiza Azam" class="profile-img" />
+      </div>
+
+      <!-- Dark Card with Stars -->
+      <div class="testimonial-card dark-card">
+        <div class="star-rating">
+          <span class="star">⭐</span>
+          <span class="star">⭐</span>
+          <span class="star">⭐</span>
+          <span class="star">⭐</span>
+          <span class="star">⭐</span>
+        </div>
+        <h2 class="name">Faiza Azam</h2>
+        <p class="title">Frontend Developer</p>
+        <p class="quote">
+          I find myself recommending roadmap.sh to all the internees or junior
+          developers. It's a great way to skill up and grow in your career.
+        </p>
+      </div>
+    </div>
+
+    <!-- Bottom Carousel Card -->
+    <div class="carousel-card">
+      <p class="quote">
+        roadmap.sh is an incredible resource. I was fortunate to discover it
+        during my university days in 2018. Back then, it was just a single
+        repository with three images. It's amazing to see how much impact it has
+        had on millions of lives since then.
+      </p>
+      <div class="carousel-nav">
+        <button class="prev"><</button>
+        <!-- ... avatar group ... -->
+        <div class="avatar-group">
+          <img src="./assets/avatar.png" alt="Previous" class="avatar" />
+          <img src="./assets/avatar.png" alt="Current" class="avatar current" />
+          <img src="./assets/avatar.png" alt="Next" class="avatar" />
+        </div>
+        <button class="next">></button>
+      </div>
+      <h3 class="name">Faiza Azam</h3>
+    </div>
+  </body>
+</html>
